@@ -1,0 +1,177 @@
+  /*THIS IS BARO BARO PAGE INTRO*/
+  
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    background-image: url(../images/intropic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1, h2, h3, p{
+    margin: 0;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+  /*THIS IS BARO BARO SECTION 1*/
+
+.SECTION1{
+    background-color: #b2ba9b;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 32px;
+}
+
+p .column_container, .column_container2, .footer{
+    font-size: 17.7px;
+}
+
+.column_container,.column_container2, .column_container3, .column_container4, .footer{
+    width: 959px;
+    margin: auto;
+    background-color: rgba(0, 0, 0,0)
+}
+
+header .column_container, .column_container2, .column_container3, .column_container4{
+    padding-top: 152px;
+    padding-bottom: 187px;
+}
+
+
+section .column_container, .column_container2, .column_container4, .footer{
+    padding-top: 40.5px;
+    padding-bottom: 38.5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.picture1 {
+    float: right;
+    margin-right: 0;
+    margin-bottom: 2.6rem;
+    margin-top: 0;
+    margin-left: 2.8rem;
+  }
+
+.text{
+    margin-bottom: 18px;
+}
+
+
+
+
+  /*THIS IS BARO BARO SECTION 2*/
+
+.SECTION2{
+    background-color: #c7cab9;
+}
+
+section .column_container3{
+  padding-top: 40.5px;
+  padding-bottom: 22px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.headerspace{
+  margin-bottom: -15px;
+}
+
+  .picture2 {
+    float: left;
+    margin-right: 12px;
+
+}
+
+h4{
+  font-size: 19.9px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 6px;
+}
+
+.small1{
+  height: 20px;
+  width: 400px;
+  margin: auto;
+  font-size: 17.7px;
+  text-align: left;
+}
+
+  .using-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+   }
+
+  .grid {
+    padding-left: 0;
+  }
+  
+  .grid li {
+    display: block;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .grid li img {
+    width: 200px;
+  }
+
+
+  /*THIS IS BARO BARO SECTION 3*/
+
+.small{
+  height: 100px;
+  width: 715px;
+  font-size: 26px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.423;
+}
+
+section .column_container4{
+  padding-top: 40.5px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.headerspace2{
+  margin-bottom: 1px;
+  margin-top: -79px;
+}
+
+.SECTION3{
+  background-color: #b2ba9b;
+  padding: 80px;
+}
+  
+
+  /*THIS IS BARO BARO FOOTER*/
+
+.footer{
+  background-color: #c7cab9;
+  padding-top: 41.4px;
+  padding-bottom: 80px;
+  padding-right: 400px;;
+  padding-left: 383.5px;;
+  text-align: left;
+}
+
