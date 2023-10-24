@@ -1,0 +1,530 @@
+
+body {
+    font-family: "Gabarito";
+    background-color: #fffcf4;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fffcf4;
+    padding-bottom: 100px;
+}
+
+h1 {
+    background-image: url(../images/square.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: rgb(177, 147, 122);
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin: 0;
+    margin-bottom: 80px;
+    white-space: pre-line;
+    line-height: 90%;
+    letter-spacing: auto;
+    font-family: "Gabarito";
+}
+
+@media (min-width: 800px){
+    h1 {
+         font-size: 900%;
+     }
+ }
+
+ @media (min-width: 720px) and (max-width: 800px){
+    h1 {
+         font-size: 820%;
+     }
+ }
+
+ @media (min-width: 650px) and (max-width: 720px){
+    h1 {
+         font-size: 710%;
+     }
+ }
+
+@media (min-width: 590px) and (max-width: 650px){
+    h1 {
+         font-size: 660%;
+     }
+ }
+
+ @media (min-width: 530px) and (max-width: 590px){
+    h1 {
+         font-size: 600%;
+     }
+ }
+
+@media (max-width: 530px){
+   h1 {
+        font-size: 550%;
+    }
+}
+
+
+
+/*this is ingredients*/
+
+.h2 {
+    background-image: url(../images/ingredients.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -140px;
+    padding-top: 12%;
+    padding-bottom: 520px;
+    text-align: left;
+    font-weight: bold;
+    color: rgba(142, 147, 164);
+    font-family: "Gabarito";
+}
+
+
+
+@media (min-width: 790px){
+    .h2 {
+         font-size: 900%;
+         padding-top: 1.4%;
+         margin-top: 80px;
+     }
+ }
+
+ @media (min-width: 720px) and (max-width: 790px){
+    .h2 {
+         font-size: 820%;
+         margin-top: -50px;
+     }
+ }
+
+ @media (min-width: 650px) and (max-width: 720px){
+    .h2 {
+         font-size: 710%;
+         padding-top: 20%;
+         margin-top: -100px;
+     }
+ }
+
+@media (min-width: 590px) and (max-width: 650px){
+    .h2 {
+         font-size: 660%;
+         padding-top: 27%;
+         margin-top: -120px;
+     }
+ }
+
+ @media (min-width: 530px) and (max-width: 590px){
+    .h2 {
+         font-size: 600%;
+         padding-top: 35.5%;
+         margin-top: -200px;
+     }
+ }
+
+@media (max-width: 530px){
+   .h2 {
+        font-size: 400%;
+        padding-top: 50%;
+        margin-top: -240px;
+    }
+}
+
+
+.grid {
+    column-count: 4; 
+    margin-bottom: 100px;
+  }
+  
+
+        h3 {
+            background-image: url(../images/cookingbg.png);
+            background-size: 97%;
+            background-repeat: no-repeat;
+            background-position: right;
+            color:rgba(65, 58, 51, 0.699);
+            text-align: left;
+            padding-top: 0px;
+            padding-bottom: 10px;
+            margin: 0;
+            margin-bottom: 40px;
+            margin-bottom: 80px;
+            white-space: pre-line;
+            line-height: 90%;
+            letter-spacing: auto;
+            font-family: "Gabarito";
+        }
+        
+        @media (min-width: 950px){
+            h3 {
+                 font-size: 860%;
+             }
+         }
+        
+         @media (min-width: 900px) and (max-width: 950px){
+            h3 {
+                 font-size: 820%;
+             }
+         }
+        
+         @media (min-width: 830px) and (max-width: 900px){
+            h3 {
+                 font-size: 750%;
+             }
+         }
+        
+        @media (min-width: 770px) and (max-width: 830px){
+            h3 {
+                 font-size: 700%;
+             }
+         }
+        
+         @media (min-width: 720px) and (max-width: 770px){
+            h3 {
+                 font-size: 650%;
+             }
+         }
+        
+         @media (min-width: 650px) and (max-width: 720px){
+            h3 {
+                 font-size: 590%;
+             }
+         }
+
+         @media (min-width: 550px) and (max-width: 650px){
+            h3 {
+                 font-size: 515%;
+             }
+         }
+
+        @media (max-width: 550px){
+           h3 {
+                font-size: 460%;
+            }
+        }
+
+        
+
+
+li {
+            font-size: 20px;
+            color:rgb(65, 58, 51);
+            line-height: 45px;
+}
+
+@media (min-width: 800px) {
+    li {
+         font-size: 150%;
+     }
+ }
+
+ @media (min-width: 650px) and (max-width: 720px){
+    li {
+         font-size: 130%;
+     }
+ }
+
+@media (min-width: 590px) and (max-width: 650px){
+    li {
+         font-size: 120%;
+         margin-bottom: 40px;
+     }
+ }
+
+ @media (max-width: 590px){
+    li {
+         font-size: 15px;
+         margin-bottom: 40px;
+         line-height: 30px;
+     }
+ }
+
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 15px 0;
+    margin-bottom: 60px;
+    font-weight:lighter;
+    color: rgb(66, 57, 47);
+}
+
+
+ @media (min-width: 800px) {
+    p {
+         font-size: 150%;
+     }
+ }
+
+ @media (min-width: 650px) and (max-width: 720px){
+    p {
+         font-size: 130%;
+     }
+ }
+
+@media (min-width: 590px) and (max-width: 650px){
+    p {
+         font-size: 120%;
+     }
+ }
+
+ @media (max-width: 590px){
+    p {
+         font-size: 100%;
+     }
+ }
+
+
+ul {
+    list-style-type: none;
+    white-space: pre-line;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 10px; 
+    text-align: left;
+    margin-left: 25px;
+}
+
+.grid li {
+    font-size: 1.3rem; 
+    margin: 4px 0; 
+}
+
+
+ @media (max-width: 720px){
+    .grid li {
+        font-size: 1rem; 
+        margin: -2px 0; 
+    }
+ }
+
+
+
+
+
+.variety {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.section-title {
+    font-size: 20px;
+    color: rgb(146, 116, 92);
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 800px) {
+    .section-title {
+         font-size: 150%;
+     }
+ }
+
+ @media (min-width: 650px) and (max-width: 720px){
+    .section-title {
+         font-size: 130%;
+     }
+ }
+
+@media (min-width: 590px) and (max-width: 650px){
+    .section-title {
+         font-size: 120%;
+         margin-bottom: 40px;
+     }
+ }
+
+ @media (max-width: 590px){
+    .section-title {
+         font-size: 100%;
+         margin-bottom: 40px;
+     }
+ }
+
+
+/*4 flavors grid*/
+.image-box {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.image-label {
+    margin-top: 15px;
+}
+
+@media (max-width: 2500px) {
+    .image-box {
+        width: 45%;
+        margin-left: 20px;
+        margin-right: 20px;    
+    }
+
+    .image-label {
+        font-size: 130%;
+    }
+}
+
+@media (min-width: 590px) and (max-width: 800px){
+    .image-box {
+        width: 45%;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .image-label {
+         font-size: 110%;
+     }
+ }
+
+
+
+@media (max-width: 590px) {
+    .image-box {
+        width: 45%;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+
+    .image-label {
+        font-size: 90%;
+    }
+}
+
+
+
+
+
+
+.ingredientfont {
+    font-size: 26px;
+    color: rgba(142, 147, 164);
+    margin-top: 0.2%;
+    margin-bottom: 5%;
+    font-weight: 400;
+}
+
+@media (min-width: 900px) {
+    .ingredientfont {
+         font-size: 100%;   
+     }
+ }
+
+ @media (min-width: 795px) and (max-width: 900px){
+    .ingredientfont {
+         font-size: 115%;
+         margin-top: -18%;
+        margin-bottom: 5%;
+     }
+ }
+
+@media (min-width: 720px) and (max-width: 795px){
+    .ingredientfont {
+         font-size: 109%;
+         margin-top: -25%;
+        margin-bottom: 5%;
+     }
+ }
+
+ @media (min-width: 692px) and (max-width: 720px){
+    .ingredientfont {
+         font-size: 99%;
+         margin-top: -32%;
+        margin-bottom: 5%;
+     }
+ }
+
+ @media (min-width: 640px) and (max-width: 692px){
+    .ingredientfont {
+         font-size: 95%;
+         margin-top: -35%;
+        margin-bottom: 5%;
+     }
+ }
+
+ @media (min-width: 560px) and (max-width: 640px){
+    .ingredientfont {
+         font-size: 95%;
+         margin-top: -43%;
+        margin-bottom: 5%;
+     }
+ }
+
+ @media (min-width: 520px) and (max-width: 560px){
+    .ingredientfont {
+         font-size: 95%;
+         margin-top: -52.5%;
+        margin-bottom: 5%;
+     }
+ }
+
+ @media (min-width: 500px) and (max-width: 520px){
+    .ingredientfont {
+         font-size: 95%;
+         margin-top: -59%;
+        margin-bottom: 5%;
+     }
+ }
+ @media (max-width: 500px){
+    .ingredientfont {
+         font-size: 95%;
+         margin-top: -61%;
+         margin-bottom: 5%;
+     }
+ }
+
+
+
+
+
+.step {
+    margin: 30px 0; 
+    font-size: 19px;
+    line-height: 10px;
+}
+
+ol {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+    .step {
+        font-size: 19px; 
+        line-height: 10px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .step {
+        margin: 15px 0; 
+        font-size: 18px; 
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .step {
+        margin: 10px 0; 
+        font-size: 18px; 
+        line-height: 25px;
+    }
+}
